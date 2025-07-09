@@ -1,6 +1,6 @@
 <?php
 
-namespace Artesaos\SEOTools\Contracts;
+namespace Kanhaiyanigam05\SEOTools\Contracts;
 
 use Illuminate\Config\Repository as Config;
 
@@ -12,7 +12,7 @@ use Illuminate\Config\Repository as Config;
  * Usage example:
  *
  * ```php
- * use Artesaos\SEOTools\SEOMeta; // implements `Artesaos\SEOTools\Contracts\MetaTags`
+ * use Kanhaiyanigam05\SEOTools\SEOMeta; // implements `Kanhaiyanigam05\SEOTools\Contracts\MetaTags`
  *
  * $metaTags = new SEOMeta();
  *
@@ -26,11 +26,11 @@ use Illuminate\Config\Repository as Config;
  * echo $metaTags->generate();
  * ```
  *
- * Implementation of this contract is available via {@see \Artesaos\SEOTools\Facades\SEOMeta} facade.
+ * Implementation of this contract is available via {@see \Kanhaiyanigam05\SEOTools\Facades\SEOMeta} facade.
  * Facade usage example:
  *
  * ```php
- * use Artesaos\SEOTools\Facades\SEOMeta;
+ * use Kanhaiyanigam05\SEOTools\Facades\SEOMeta;
  *
  * // specify meta info
  * SEOMeta::setTitle('Home');
@@ -43,8 +43,8 @@ use Illuminate\Config\Repository as Config;
  * ```
  *
  * @see https://www.w3schools.com/tags/tag_meta.asp
- * @see \Artesaos\SEOTools\SEOMeta
- * @see \Artesaos\SEOTools\Facades\SEOMeta
+ * @see \Kanhaiyanigam05\SEOTools\SEOMeta
+ * @see \Kanhaiyanigam05\SEOTools\Facades\SEOMeta
  */
 interface MetaTags
 {

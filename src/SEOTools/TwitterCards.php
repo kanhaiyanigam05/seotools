@@ -1,13 +1,13 @@
 <?php
 
-namespace Artesaos\SEOTools;
+namespace Kanhaiyanigam05\SEOTools;
 
-use Artesaos\SEOTools\Contracts\TwitterCards as TwitterCardsContract;
+use Kanhaiyanigam05\SEOTools\Contracts\TwitterCards as TwitterCardsContract;
 
 /**
  * TwitterCards provides implementation for `TwitterCards` contract.
  *
- * @see \Artesaos\SEOTools\Contracts\TwitterCards
+ * @see \Kanhaiyanigam05\SEOTools\Contracts\TwitterCards
  */
 class TwitterCards implements TwitterCardsContract
 {

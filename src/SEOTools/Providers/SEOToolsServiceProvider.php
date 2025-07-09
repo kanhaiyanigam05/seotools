@@ -1,14 +1,14 @@
 <?php
 
-namespace Artesaos\SEOTools\Providers;
+namespace Kanhaiyanigam05\SEOTools\Providers;
 
-use Artesaos\SEOTools\Contracts;
-use Artesaos\SEOTools\JsonLd;
-use Artesaos\SEOTools\JsonLdMulti;
-use Artesaos\SEOTools\OpenGraph;
-use Artesaos\SEOTools\SEOMeta;
-use Artesaos\SEOTools\SEOTools;
-use Artesaos\SEOTools\TwitterCards;
+use Kanhaiyanigam05\SEOTools\Contracts;
+use Kanhaiyanigam05\SEOTools\JsonLd;
+use Kanhaiyanigam05\SEOTools\JsonLdMulti;
+use Kanhaiyanigam05\SEOTools\OpenGraph;
+use Kanhaiyanigam05\SEOTools\SEOMeta;
+use Kanhaiyanigam05\SEOTools\SEOTools;
+use Kanhaiyanigam05\SEOTools\TwitterCards;
 use Illuminate\Config\Repository as Config;
 use Illuminate\Contracts\Support\DeferrableProvider;
 use Illuminate\Support\ServiceProvider;
@@ -25,17 +25,17 @@ use Illuminate\Support\Str;
  *     dirname(__DIR__)
  * );
  * // ...
- * $app->register(Artesaos\SEOTools\Providers\SEOToolsServiceProvider::class);
+ * $app->register(Kanhaiyanigam05\SEOTools\Providers\SEOToolsServiceProvider::class);
  * // ...
  * return $app;
  * ```
  *
- * @see \Artesaos\SEOTools\Contracts\SEOTools
- * @see \Artesaos\SEOTools\Contracts\MetaTags
- * @see \Artesaos\SEOTools\Contracts\OpenGraph
- * @see \Artesaos\SEOTools\Contracts\TwitterCards
- * @see \Artesaos\SEOTools\Contracts\JsonLd
- * @see \Artesaos\SEOTools\Contracts\JsonLdMulti
+ * @see \Kanhaiyanigam05\SEOTools\Contracts\SEOTools
+ * @see \Kanhaiyanigam05\SEOTools\Contracts\MetaTags
+ * @see \Kanhaiyanigam05\SEOTools\Contracts\OpenGraph
+ * @see \Kanhaiyanigam05\SEOTools\Contracts\TwitterCards
+ * @see \Kanhaiyanigam05\SEOTools\Contracts\JsonLd
+ * @see \Kanhaiyanigam05\SEOTools\Contracts\JsonLdMulti
  */
 class SEOToolsServiceProvider extends ServiceProvider implements DeferrableProvider
 {

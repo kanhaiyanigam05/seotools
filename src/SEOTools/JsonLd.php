@@ -1,13 +1,13 @@
 <?php
 
-namespace Artesaos\SEOTools;
+namespace Kanhaiyanigam05\SEOTools;
 
-use Artesaos\SEOTools\Contracts\JsonLd as JsonLdContract;
+use Kanhaiyanigam05\SEOTools\Contracts\JsonLd as JsonLdContract;
 
 /**
  * JsonLd provides implementation for `JsonLd` contract.
  *
- * @see \Artesaos\SEOTools\Contracts\JsonLd
+ * @see \Kanhaiyanigam05\SEOTools\Contracts\JsonLd
  */
 class JsonLd implements JsonLdContract
 {

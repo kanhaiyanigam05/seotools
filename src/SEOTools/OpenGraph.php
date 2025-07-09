@@ -1,14 +1,14 @@
 <?php
 
-namespace Artesaos\SEOTools;
+namespace Kanhaiyanigam05\SEOTools;
 
 use Illuminate\Support\Arr;
-use Artesaos\SEOTools\Contracts\OpenGraph as OpenGraphContract;
+use Kanhaiyanigam05\SEOTools\Contracts\OpenGraph as OpenGraphContract;
 
 /**
  * OpenGraph provides implementation for `OpenGraph` contract.
  *
- * @see \Artesaos\SEOTools\Contracts\OpenGraph
+ * @see \Kanhaiyanigam05\SEOTools\Contracts\OpenGraph
  */
 class OpenGraph implements OpenGraphContract
 {

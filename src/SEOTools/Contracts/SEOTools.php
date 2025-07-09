@@ -1,6 +1,6 @@
 <?php
 
-namespace Artesaos\SEOTools\Contracts;
+namespace Kanhaiyanigam05\SEOTools\Contracts;
 
 /**
  * SEOTools defines contract for the SEO tools aggregator.
@@ -10,7 +10,7 @@ namespace Artesaos\SEOTools\Contracts;
  * Usage example:
  *
  * ```php
- * use Artesaos\SEOTools\SEOTools; // implements `Artesaos\SEOTools\Contracts\SEOTools`
+ * use Kanhaiyanigam05\SEOTools\SEOTools; // implements `Kanhaiyanigam05\SEOTools\Contracts\SEOTools`
  *
  * $seoTools = new SEOTools();
  *
@@ -24,22 +24,22 @@ namespace Artesaos\SEOTools\Contracts;
  * $seoTools->twitter()->addValue('app:country', 'US');
  * $seoTools->jsonLd()->addValue('author', [
  *     '@type' => 'Organization',
- *     'name' => 'Artesaos',
+ *     'name' => 'Kanhaiyanigam05',
  * ]));
  * $seoTools->jsonLdMulti()->addValue('author', [
  *     '@type' => 'Organization',
- *     'name' => 'Artesaos',
+ *     'name' => 'Kanhaiyanigam05',
  * ]));
  *
  * // render HTML, it should be placed within 'head' HTML tag
  * echo $seoTools->generate();
  * ```
  *
- * Implementation of this contract is available via {@see \Artesaos\SEOTools\Facades\SEOTools} facade.
+ * Implementation of this contract is available via {@see \Kanhaiyanigam05\SEOTools\Facades\SEOTools} facade.
  * Facade usage example:
  *
  * ```php
- * use Artesaos\SEOTools\Facades\SEOTools;
+ * use Kanhaiyanigam05\SEOTools\Facades\SEOTools;
  *
  * // specify meta info
  * SEOTools::setTitle('Homepage');
@@ -51,49 +51,49 @@ namespace Artesaos\SEOTools\Contracts;
  * SEOTools::twitter()->addValue('app:country', 'US');
  * SEOTools::jsonLd()->addValue('author', [
  *     '@type' => 'Organization',
- *     'name' => 'Artesaos',
+ *     'name' => 'Kanhaiyanigam05',
  * ]));
  * SEOTools::jsonLdMulti()->addValue('author', [
  *     '@type' => 'Organization',
- *     'name' => 'Artesaos',
+ *     'name' => 'Kanhaiyanigam05',
  * ]));
  *
  * // render HTML, it should be placed within 'head' HTML tag
  * echo SEOTools::generate();
  * ```
  *
- * @see \Artesaos\SEOTools\Contracts\MetaTags
- * @see \Artesaos\SEOTools\Contracts\OpenGraph
- * @see \Artesaos\SEOTools\Contracts\TwitterCards
- * @see \Artesaos\SEOTools\Contracts\JsonLd
- * @see \Artesaos\SEOTools\Contracts\JsonLdMulti
+ * @see \Kanhaiyanigam05\SEOTools\Contracts\MetaTags
+ * @see \Kanhaiyanigam05\SEOTools\Contracts\OpenGraph
+ * @see \Kanhaiyanigam05\SEOTools\Contracts\TwitterCards
+ * @see \Kanhaiyanigam05\SEOTools\Contracts\JsonLd
+ * @see \Kanhaiyanigam05\SEOTools\Contracts\JsonLdMulti
  *
  * @author `Vinicius Reis`
  */
 interface SEOTools
 {
     /**
-     * @return \Artesaos\SEOTools\Contracts\MetaTags
+     * @return \Kanhaiyanigam05\SEOTools\Contracts\MetaTags
      */
     public function metatags();
 
     /**
-     * @return \Artesaos\SEOTools\Contracts\OpenGraph
+     * @return \Kanhaiyanigam05\SEOTools\Contracts\OpenGraph
      */
     public function opengraph();
 
     /**
-     * @return \Artesaos\SEOTools\Contracts\TwitterCards
+     * @return \Kanhaiyanigam05\SEOTools\Contracts\TwitterCards
      */
     public function twitter();
 
     /**
-     * @return \Artesaos\SEOTools\Contracts\JsonLd
+     * @return \Kanhaiyanigam05\SEOTools\Contracts\JsonLd
      */
     public function jsonLd();
 
     /**
-     * @return \Artesaos\SEOTools\Contracts\JsonLdMulti
+     * @return \Kanhaiyanigam05\SEOTools\Contracts\JsonLdMulti
      */
     public function jsonLdMulti();
 

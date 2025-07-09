@@ -1,13 +1,13 @@
 <?php
 
-namespace Artesaos\SEOTools;
+namespace Kanhaiyanigam05\SEOTools;
 
-use Artesaos\SEOTools\Contracts\JsonLdMulti as JsonLdMultiContract;
+use Kanhaiyanigam05\SEOTools\Contracts\JsonLdMulti as JsonLdMultiContract;
 
 /**
  * JsonLdMulti provides implementation for `JsonLdMulti` contract.
  *
- * @see \Artesaos\SEOTools\Contracts\JsonLdMulti
+ * @see \Kanhaiyanigam05\SEOTools\Contracts\JsonLdMulti
  */
 class JsonLdMulti implements JsonLdMultiContract
 {

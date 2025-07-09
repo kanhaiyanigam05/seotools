@@ -1,6 +1,6 @@
 <?php
 
-namespace Artesaos\SEOTools\Contracts;
+namespace Kanhaiyanigam05\SEOTools\Contracts;
 
 interface SEOFriendly
 {

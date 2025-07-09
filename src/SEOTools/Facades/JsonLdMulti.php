@@ -1,26 +1,26 @@
 <?php
 
-namespace Artesaos\SEOTools\Facades;
+namespace Kanhaiyanigam05\SEOTools\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
  * JsonLd is a facade for the `JsonLd` implementation access.
  *
- * @see \Artesaos\SEOTools\Contracts\JsonLdMulti
+ * @see \Kanhaiyanigam05\SEOTools\Contracts\JsonLdMulti
  * @method static string generate(bool $minify = false)
- * @method static \Artesaos\SEOTools\Contracts\JsonLdMulti newJsonLd()
- * @method static \Artesaos\SEOTools\Contracts\JsonLdMulti isEmpty()
- * @method static \Artesaos\SEOTools\Contracts\JsonLdMulti select(int $index)
- * @method static \Artesaos\SEOTools\Contracts\JsonLdMulti addValue(string $key, string|array $value)
- * @method static \Artesaos\SEOTools\Contracts\JsonLdMulti addValues(array $values)
- * @method static \Artesaos\SEOTools\Contracts\JsonLdMulti setType(string $type)
- * @method static \Artesaos\SEOTools\Contracts\JsonLdMulti setTitle(string $title)
- * @method static \Artesaos\SEOTools\Contracts\JsonLdMulti setSite(string $site)
- * @method static \Artesaos\SEOTools\Contracts\JsonLdMulti setDescription(string $description)
- * @method static \Artesaos\SEOTools\Contracts\JsonLdMulti setUrl(string|null|bool $url)
- * @method static \Artesaos\SEOTools\Contracts\JsonLdMulti addImage(array|string $image)
- * @method static \Artesaos\SEOTools\Contracts\JsonLdMulti setImages(string|array $images)
+ * @method static \Kanhaiyanigam05\SEOTools\Contracts\JsonLdMulti newJsonLd()
+ * @method static \Kanhaiyanigam05\SEOTools\Contracts\JsonLdMulti isEmpty()
+ * @method static \Kanhaiyanigam05\SEOTools\Contracts\JsonLdMulti select(int $index)
+ * @method static \Kanhaiyanigam05\SEOTools\Contracts\JsonLdMulti addValue(string $key, string|array $value)
+ * @method static \Kanhaiyanigam05\SEOTools\Contracts\JsonLdMulti addValues(array $values)
+ * @method static \Kanhaiyanigam05\SEOTools\Contracts\JsonLdMulti setType(string $type)
+ * @method static \Kanhaiyanigam05\SEOTools\Contracts\JsonLdMulti setTitle(string $title)
+ * @method static \Kanhaiyanigam05\SEOTools\Contracts\JsonLdMulti setSite(string $site)
+ * @method static \Kanhaiyanigam05\SEOTools\Contracts\JsonLdMulti setDescription(string $description)
+ * @method static \Kanhaiyanigam05\SEOTools\Contracts\JsonLdMulti setUrl(string|null|bool $url)
+ * @method static \Kanhaiyanigam05\SEOTools\Contracts\JsonLdMulti addImage(array|string $image)
+ * @method static \Kanhaiyanigam05\SEOTools\Contracts\JsonLdMulti setImages(string|array $images)
  */
 class JsonLdMulti extends Facade
 {

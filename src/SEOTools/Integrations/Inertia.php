@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Artesaos\SEOTools\Integrations;
+namespace Kanhaiyanigam05\SEOTools\Integrations;
 
 final class Inertia
 {

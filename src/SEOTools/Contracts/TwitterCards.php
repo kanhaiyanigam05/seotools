@@ -1,6 +1,6 @@
 <?php
 
-namespace Artesaos\SEOTools\Contracts;
+namespace Kanhaiyanigam05\SEOTools\Contracts;
 
 /**
  * TwitterCards defines contract for the "TwitterCard" meta tags container.
@@ -10,7 +10,7 @@ namespace Artesaos\SEOTools\Contracts;
  * Usage example:
  *
  * ```php
- * use Artesaos\SEOTools\TwitterCards; // implements `Artesaos\SEOTools\Contracts\TwitterCards`
+ * use Kanhaiyanigam05\SEOTools\TwitterCards; // implements `Kanhaiyanigam05\SEOTools\Contracts\TwitterCards`
  *
  * $twitterCards = new TwitterCards();
  *
@@ -23,11 +23,11 @@ namespace Artesaos\SEOTools\Contracts;
  * echo $twitterCards->generate();
  * ```
  *
- * Implementation of this contract is available via {@see \Artesaos\SEOTools\Facades\TwitterCard} facade.
+ * Implementation of this contract is available via {@see \Kanhaiyanigam05\SEOTools\Facades\TwitterCard} facade.
  * Facade usage example:
  *
  * ```php
- * use Artesaos\SEOTools\Facades\TwitterCard;
+ * use Kanhaiyanigam05\SEOTools\Facades\TwitterCard;
  *
  * // specify meta info
  * TwitterCard::setTitle('Home');
@@ -39,8 +39,8 @@ namespace Artesaos\SEOTools\Contracts;
  * ```
  *
  * @see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/abouts-cards
- * @see \Artesaos\SEOTools\TwitterCards
- * @see \Artesaos\SEOTools\Facades\TwitterCard
+ * @see \Kanhaiyanigam05\SEOTools\TwitterCards
+ * @see \Kanhaiyanigam05\SEOTools\Facades\TwitterCard
  */
 interface TwitterCards
 {

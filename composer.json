@@ -21,26 +21,25 @@
             "name": "kanhaiya"
         }
     ],
-  "require": {
-  "php": "^8.2",
-  "ext-json": "*",
-  "illuminate/config": "^12.0",
-  "illuminate/support": "^12.0"
-},
-"require-dev": {
-  "orchestra/testbench": "^10.4",
-  "phpunit/phpunit": "^11.5",
-  "mockery/mockery": "^1.6"
-},
-
+    "require": {
+        "php": "^8.2",
+        "ext-json": "*",
+        "illuminate/config": "^12.0",
+        "illuminate/support": "^12.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^10.4",
+        "phpunit/phpunit": "^11.5",
+        "mockery/mockery": "^1.6"
+    },
     "autoload": {
         "psr-4": {
-            "Artesaos\\SEOTools\\": "src/SEOTools/"
+            "Kanhaiyanigam05\\SEOTools\\": "src/SEOTools/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Artesaos\\SEOTools\\Tests\\": "tests/SEOTools"
+            "Kanhaiyanigam05\\SEOTools\\Tests\\": "tests/SEOTools"
         }
     },
     "config": {
@@ -49,14 +48,14 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Artesaos\\SEOTools\\Providers\\SEOToolsServiceProvider"
+                "Kanhaiyanigam05\\SEOTools\\Providers\\SEOToolsServiceProvider"
             ],
             "aliases": {
-                "SEOMeta": "Artesaos\\SEOTools\\Facades\\SEOMeta",
-                "OpenGraph": "Artesaos\\SEOTools\\Facades\\OpenGraph",
-                "Twitter": "Artesaos\\SEOTools\\Facades\\TwitterCard",
-                "JsonLd": "Artesaos\\SEOTools\\Facades\\JsonLd",
-                "SEO": "Artesaos\\SEOTools\\Facades\\SEOTools"
+                "SEOMeta": "Kanhaiyanigam05\\SEOTools\\Facades\\SEOMeta",
+                "OpenGraph": "Kanhaiyanigam05\\SEOTools\\Facades\\OpenGraph",
+                "Twitter": "Kanhaiyanigam05\\SEOTools\\Facades\\TwitterCard",
+                "JsonLd": "Kanhaiyanigam05\\SEOTools\\Facades\\JsonLd",
+                "SEO": "Kanhaiyanigam05\\SEOTools\\Facades\\SEOTools"
             }
         }
     },

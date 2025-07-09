@@ -1,13 +1,13 @@
 <?php
 
-namespace Artesaos\SEOTools\Traits;
+namespace Kanhaiyanigam05\SEOTools\Traits;
 
-use Artesaos\SEOTools\Contracts\SEOFriendly;
+use Kanhaiyanigam05\SEOTools\Contracts\SEOFriendly;
 
 trait SEOTools
 {
     /**
-     * @return \Artesaos\SEOTools\Contracts\SEOTools
+     * @return \Kanhaiyanigam05\SEOTools\Contracts\SEOTools
      */
     protected function seo()
     {
@@ -17,7 +17,7 @@ trait SEOTools
     /**
      * @param SEOFriendly $friendly
      *
-     * @return \Artesaos\SEOTools\Contracts\SEOTools
+     * @return \Kanhaiyanigam05\SEOTools\Contracts\SEOTools
      */
     protected function loadSEO(SEOFriendly $friendly)
     {

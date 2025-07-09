@@ -1,15 +1,15 @@
 <?php
 
-namespace Artesaos\SEOTools;
+namespace Kanhaiyanigam05\SEOTools;
 
-use Artesaos\SEOTools\Contracts\SEOTools as SEOContract;
-use Artesaos\SEOTools\Integrations\Inertia;
+use Kanhaiyanigam05\SEOTools\Contracts\SEOTools as SEOContract;
+use Kanhaiyanigam05\SEOTools\Integrations\Inertia;
 use Illuminate\Support\Traits\Macroable;
 
 /**
  * SEOTools provides implementation for `SEOTools` contract.
  *
- * @see \Artesaos\SEOTools\Contracts\SEOTools
+ * @see \Kanhaiyanigam05\SEOTools\Contracts\SEOTools
  */
 class SEOTools implements SEOContract
 {
